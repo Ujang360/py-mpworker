@@ -10,7 +10,7 @@ with open(path.join(here, "README.md"), encoding="utf-8") as f:
 
 setup(
     name="py-mpworker",
-    version="1.0.0",
+    version="1.0.1",
     description="Python multiprocess periodic worker",
     long_description=long_description,
     long_description_content_type="text/markdown",
@@ -26,7 +26,7 @@ setup(
     ],
     keywords="multiprocess",
     packages=find_packages(exclude=["contrib", "docs", "tests"]),  # Required
-    python_requires=">=3.6.9, <4",
+    python_requires=">=3.6.*, <4",
     install_requires=[],  # Optional
     project_urls={
         "Bug Reports": "https://github.com/Ujang360/py-mpworker/issues",
