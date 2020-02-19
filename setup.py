@@ -10,7 +10,7 @@ with open(path.join(here, "README.md"), encoding="utf-8") as f:
 
 setup(
     name="py-mpworker",
-    version="1.0.2",
+    version="1.1.0",
     description="Python multiprocess periodic worker",
     long_description=long_description,
     long_description_content_type="text/markdown",
