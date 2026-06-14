@@ -1,0 +1,6 @@
+[project]
+name = "ujang-py-mpworker"
+slug = "ujang-py-mpworker"
+
+[amem]
+server = "https://amem.flusci.org"
